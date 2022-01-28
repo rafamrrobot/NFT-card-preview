@@ -1,0 +1,63 @@
+body {
+  color: #faf5f5;
+  background-color: #0d192b;
+  font-size: 18px;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.container {
+  background-color: #14253d;
+  color: white;
+  width: 375px;
+}
+
+.overlay {
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  background-color: #00fff7;
+  width: 25%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in;
+}
+
+.img:hover .overlay {
+  opacity: 1;
+  background: rgba(0, 255, 247, 0.4);
+}
+
+.description {
+  color: #8bacda;
+}
+
+.time_remain {
+  color: #8bacda;
+  font-size: 15px;
+}
+
+.ethereum {
+  color: #00fff7;
+  font-size: 15px;
+}
+
+hr {
+  border-color: #2f415b;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+img.avatar {
+  width: 50px;
+}
+
+.footer-card {
+  color: #8bacda;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
