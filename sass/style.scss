@@ -1,0 +1,67 @@
+body{
+    color: rgb(250, 245, 245) ;
+    background-color:hsl(217, 54%, 11%) ;
+    font-size: 18px;
+    font-family: 'Shadows Into Light', cursive;
+   
+}
+
+//definindo o container do card 
+.container {
+    background-color:hsl(216, 50%, 16%);
+    color: hsl(0, 0%, 100%);
+    width: 375px;
+    }
+//setando a transição para o estado de view
+    .overlay {
+        position: absolute;
+        top: 36%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        background-color: hsl(178, 100%, 50%);
+        width: 25%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease-in;
+      }
+      
+      .img:hover .overlay {
+        opacity: 1;
+        background: hsla(178, 100%, 50%, 0.4);
+      }
+
+      //estilizando as infos do card
+.description{
+   color: hsl(215, 51%, 70%);
+}
+
+.time_remain{
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+.ethereum{
+    color:hsl(178, 100%, 50%);
+    font-size: 15px;
+}
+
+hr{
+    border-color:hsl(215, 32%, 27%);
+    box-sizing:border-box;
+    width:100%;  
+}
+//footer do card
+img.avatar{
+    width: 50px ;
+}
+
+.footer-card{
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+
+
